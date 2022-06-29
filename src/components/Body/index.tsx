@@ -21,23 +21,20 @@ export default function Body() {
 					key={i}
 				/>)}
 			</div>
-			<div>
+			<div className="langue">
 				<h1>Langue</h1>
-				<ul>
-					<li>Francais</li>
-					<li>Anglais</li>
-				</ul>
+				<ul>{cv.languages.map((l, i) => <li key={i} dangerouslySetInnerHTML={{ __html: l }} />)}</ul>
 			</div>
 		</div>
 		<div className="right">
 			<div className="experience">
-				<h1>Experience</h1>
+				<h1>Mes Experiences</h1>
 				<div className="container">
 					{cv.experiences.map((experience, i) => <ExperienceItem item={experience} key={i} />)}
 				</div>
 			</div>
-			<div className="ressource">
-				<h1>Mes ressources</h1>
+			<div className="projects">
+				<h1>Mes projets</h1>
 				<ul>
 					{cv.projects.map((project, i) => <ProjectItem item={project} key={i} />)}
 				</ul>

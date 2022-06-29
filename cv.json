@@ -103,5 +103,9 @@
 			"desc": "Clone super mario nes c++",
 			"link": "https://github.com/atinseau/so_long"
 		}
+	],
+	"languages": [
+		"Français",
+		"Anglais <i>(technique)</i>"
 	]
 }

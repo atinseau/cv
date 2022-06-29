@@ -17,11 +17,11 @@ export default function Header() {
 			<div className="logo">
 				<a target={"_blank"} href={cv.github}>
 					<img src={github} />
-					<p>{cv.github}</p>
+					<p>{cv.github.replace('https://', '')}</p>
 				</a>
 				<a target={"_blank"} href={cv.linkedin}>
 					<img src={linkedin} />
-					<p>{cv.linkedin}</p>
+					<p>{cv.linkedin.replace('https://', '')}</p>
 				</a>
 			</div>
 			<div className="desc">
