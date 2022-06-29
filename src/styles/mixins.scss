@@ -1,0 +1,41 @@
+@use "sass:map";
+
+@mixin flex ($dir: row, $gap: null) {
+	display: flex;
+	flex-direction: $dir;
+
+	@if ($gap  !=null) {
+		gap: $gap;
+	}
+}
+
+@mixin bar($height, $dir, $px) {
+	content: "";
+	position: absolute;
+	background: black;
+	width: 2px;
+	right: 106px;
+	height: $height;
+	#{$dir}: $px;
+}
+
+@mixin absolute ($coord) {
+	position: absolute;
+	@each $dir, $value in $coord {
+		@if $dir != "top" and $dir != "bottom" and $dir != "left" and $dir != "right" {
+			@error "Invalid direction: #{$dir}";
+		}
+		#{$dir}: $value;
+	}
+}
+
+@mixin box ($sizes) {
+	$width: map-get($sizes, "width");
+	$height: map-get($sizes, "height");
+	@if $width {
+		width: $width;
+	}
+	@if $height {
+		height: $height;
+	}
+}

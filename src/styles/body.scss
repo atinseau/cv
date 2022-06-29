@@ -1,0 +1,122 @@
+@use "./mixins.scss" as *;
+
+.page .body {
+	margin-top: 40px;
+	padding: 0 40px;
+	@include flex(row, 20px);
+
+	h2 {
+		font-size: 14px;
+	}
+
+	h1 {
+		font-size: 16px;
+		letter-spacing: normal;
+	}
+
+	p {
+		text-align: justify;
+	}
+
+	.left {
+		min-width: 25%;
+
+		.skills {
+			h3 {
+				text-transform: uppercase;
+				font-size: 14px;
+				margin: 10px 0 8px 0;
+			}
+
+			ul {
+				@include flex(column, 5px);
+				color: gray;
+			}
+		}
+
+		.education {
+			margin-top: 20px;
+
+			&>h1 {
+				margin-bottom: 15px;
+			}
+
+			.item {
+				@include flex(column, 4px);
+				margin-bottom: 30px;
+			}
+		}
+	}
+
+	.right .ressource {
+		margin-top: 20px;
+
+		ul {
+			margin-top: 10px;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 15px;
+
+			li {
+				@include flex(column);
+				position: relative;
+
+				h3 {
+					font-size: 14px;
+					color: black;
+				}
+
+				p,
+				a {
+					color: gray;
+					font-size: 12px;
+				}
+
+				&::before {
+					content: "• ";
+					position: absolute;
+					left: -15px;
+				}
+			}
+		}
+	}
+
+	.right .experience {
+		h1 {
+			margin-bottom: 20px;
+		}
+
+		.container {
+			@include flex(column, 30px);
+
+			.item {
+				h1 {
+					margin: 10px 0 5px 0;
+
+					i {
+						font-size: 9px;
+						color: gray;
+					}
+				}
+
+				h4 {
+					margin-top: 7px;
+					font-size: 11px;
+
+					span {
+						font-weight: 500;
+						color: gray;
+
+						&:first-child {
+							margin-left: 5px;
+						}
+
+						&:not(:last-child)::after {
+							content: ", ";
+						}
+					}
+				}
+			}
+		}
+	}
+}

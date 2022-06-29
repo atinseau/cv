@@ -1,0 +1,80 @@
+@use "./mixins.scss" as *;
+
+.page .header {
+	position: relative;
+	padding: 80px 40px 0 40px;
+
+	.left {
+		width: 70%;
+		@include flex(column, 40px);
+
+		.contact {
+			font-size: 11px;
+			@include flex(column, 5px);
+
+			h3 {
+				font-weight: normal;
+				color: gray;
+			}
+
+			span {
+				margin-right: 5px;
+				color: black;
+			}
+		}
+
+		.logo {
+			@include flex(column, 5px);
+
+			a {
+				@include flex(row, 8px);
+				align-items: center;
+				font-size: 11px;
+
+				img {
+					width: 20px;
+				}
+			}
+		}
+
+		.desc {
+			text-align: justify;
+		}
+	}
+
+	.right {
+		@include absolute((top: 70px, right: 30px));
+		background: white;
+		display: flex;
+		align-items: center;
+
+		div {
+			h1 {
+				letter-spacing: 0px;
+				font-size: 50px;
+			}
+
+			&::after {
+				@include bar(150px, "top", calc(100% + 22px));
+			}
+
+			&::before {
+				@include bar(100px, "bottom", 100%);
+			}
+		}
+
+		img {
+			@include box((width: 90px, height: 90px));
+			object-fit: cover;
+			border-radius: 9999px;
+			border: 3px solid rgb(193, 193, 193);
+			padding: 5px;
+		}
+
+		p {
+			@include absolute((top: 100%, right: 106px));
+			white-space: nowrap;
+			text-transform: uppercase;
+		}
+	}
+}

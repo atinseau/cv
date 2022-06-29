@@ -1,0 +1,107 @@
+{
+	"firstname": "Arthur",
+	"lastname": "Tinseau",
+	"job": "DEV FULL-STACK JS/PHP",
+	"tel": "0782887672",
+	"email": "arthurtweak@gmail.com",
+	"address": "25 boulevard de la somme, 75017 Paris",
+	"github": "https://github.com/atinseau",
+	"linkedin": "https://www.linkedin.com/in/arthur-tinseau",
+	"profil": "Je m'appelle Arthur tinseau, je suis dévéloppeur Full-Stack freelance et étudiant à 42 Paris. En tant que passionné d'informatique, je suis en permanente recherche de nouveaux challenges pour approfondir mes compétences. Je suis quelqu'un de devoué, perfectionniste et meticuleux.",
+	"skills": {
+		"professional": [
+			"Lead dev",
+			"Backend dev",
+			"Front Dev"
+		],
+		"tech": [
+			"React/Nextjs",
+			"Vue/Nuxtjs",
+			"Mysql/Mongodb",
+			"Graphql/Apollo",
+			"PHP/Laravel",
+			"Wordpress",
+			"Node/Nest"
+		]
+	},
+	"cursus": [
+		{
+			"date": "2020 - Aujourd'hui",
+			"title": "42 SCHOOL PARIS",
+			"desc": "école d'informatique"
+		},
+		{
+			"date": "2019 - 2020",
+			"title": "DUT GEII",
+			"desc": "Genie info industrielle"
+		},
+		{
+			"date": "2018 - 2019",
+			"title": "BTS SIN PROVIDENCE",
+			"desc": "bts science info"
+		}
+	],
+	"experiences": [
+		{
+			"date": "Septembre 2021 - Juillet 2022",
+			"title": "LEAD DEV CHEZ DDN IMMOBILIER <i>(freelance)</i>",
+			"desc": "Au sein d'une equipe de 3 développeur, j ai eu a charge la conception de la plateforme immobiliere <a href=\"https://ddn-immobilier.fr\">ddn-immobilier.fr</a>. Contient un CRM complet sur mesure, builder de page, gestion user / role, gestion mediatheque, administration avancer des biens, mandat, compromis, annexe et signature digitale.",
+			"stacks": [
+				"React",
+				"Nextjs",
+				"Mongoose",
+				"Docker",
+				"Bash",
+				"Ovh"
+			]
+		},
+		{
+			"date": "Octobre 2020 - Juin 2021",
+			"title": "Développeur Full-Stack chez Espot-Paris <i>(freelance)</i>",
+			"desc": "En tant que développeur full-stack pour <a href=\"https://espot.fr\">espot.fr</a>, j'ai contributé à la création d'un thème Wordpress ainsi que plusieurs plugins afin d'étendre les fonctionnalités de la plateforme (block gutemberg, wigdet, post-type, etc..). Mission en equipe de 3 développeur.",
+			"stacks": [
+				"PHP 8",
+				"JS",
+				"Wordpress",
+				"Composer",
+				"Wp-cli",
+				"Planet Hoster"
+			]
+		},
+		{
+			"date": "Septembre 2020 - Novembre 2020",
+			"title": "Développeur Full-Stack pour H24Connect <i>(freelance)</i>",
+			"desc": "Mission en solitaire pour <a href=\"https://h24connect.fr\">h24connect.fr</a>. Création d'un site d'information et de contact, chatbot sur mesure et configuration via un CRM complet grace à voyager",
+			"stacks": [
+				"PHP 7.4",
+				"Laravel 8",
+				"JS",
+				"Docker-compose",
+				"SASS",
+				"Graphql"
+			]
+		}
+	],
+	"projects": [
+		{
+			"title": "Ceact",
+			"desc": "Clone de react en c++ webassembly",
+			"link": "https://github.com/atinseau/ceact"
+		},
+		{
+			"title": "Solidjs-router",
+			"desc": "Router front solidjs",
+			"link": "https://github.com/atinseau/solidjs-router"
+		},
+		{
+			"title": "Ft_services",
+			"desc": "Exemple de deployement kubernetes",
+			"link": "https://github.com/atinseau/ft_services"
+		},
+		{
+			"title": "So_long",
+			"desc": "Clone super mario nes c++",
+			"link": "https://github.com/atinseau/so_long"
+		}
+	]
+}
