@@ -9,9 +9,9 @@ export default function Body() {
 		<div className="left">
 			<div className="skills">
 				<h1>Skills</h1>
-				<h3>Professionnel</h3>
-				<ul>{cv.skills.professional.map((p, i) => <li key={i} children={p} />)}</ul>
-				<h3>Technologie</h3>
+				<h3>Qualités</h3>
+				<ul>{cv.skills.quality.map((p, i) => <li key={i} children={p} />)}</ul>
+				<h3>Technologies</h3>
 				<ul>{cv.skills.tech.map((t, i) => <li key={i} children={t} />)}</ul>
 			</div>
 			<div className="education">
@@ -28,7 +28,7 @@ export default function Body() {
 		</div>
 		<div className="right">
 			<div className="experience">
-				<h1>Mes Experiences</h1>
+				<h1>Mes expériences professionneles</h1>
 				<div className="container">
 					{cv.experiences.map((experience, i) => <ExperienceItem item={experience} key={i} />)}
 				</div>
