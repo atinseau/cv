@@ -1,0 +1,108 @@
+firstname: Arthur
+lastname: Tinseau
+job: "DÉVELOPPEUR FULL-STACK JS SENIOR"
+tel: 0782887672
+email: arthurtinseau@live.fr
+address: "25 boulevard de la somme, 75017 Paris"
+github: "https://github.com/atinseau"
+linkedin: "https://www.linkedin.com/in/arthur-tinseau"
+profil: Grâce à ma passion pour l’informatique, et aux compétences acquises
+  à l'école 42, j'ai dirigé avec succès une équipe de 10 développeurs
+  en tant que Tech Lead Frontend pendant deux ans, puis j'ai participé
+  à la création d'une startup spécialisée dans la téléconsultation médicale.
+  Ces expériences m’ont permis de développer une expertise solide
+  dans la gestion de projets d'envergure, renforçant ma capacité d'anticipation
+  et ma vision stratégique. Aujourd'hui, je suis prêt à relever de nouveaux défis
+  et innover dans le domaine de l'informatique.
+skills:
+  quality:
+    - Méticuleux
+    - Autonome
+    - Créatif
+    - Fédérateur
+  tech:
+    - Typescript/Javascript
+    - React/Nextjs/Svelte
+    - Node/NestJS/Bun
+    - Mysql/Mongodb/Psql
+    - Kubernetes/Docker
+    - Powershell/Bash
+cursus:
+  - date: "2020 - 2023"
+    title: "42 SCHOOL PARIS"
+    desc: "École d'informatique"
+  - date: "2019 - 2019"
+    title: "BTS SIN PROVIDENCE"
+    desc: "Bts science info"
+  - date: "2018 - 2019"
+    title: "DUT GEII"
+    desc: "Genie info industrielle"
+experiences:
+  - date: "Novembre 2023 - Juin 2024"
+    title: "LEAD DEV FULL-STACK - HYGIIE (freelance)"
+    desc: J’ai eu la chance de contribuer à la création d’Hygiie,
+      une startup dans la téléconsultation médicale, j’ai architecturé
+      et développé front/back ainsi que de nombreux outils
+      nécessaires au fonctionnement de la plateforme, ci/cd,
+      environments dev, pratiques de dev, documentation - hygiie.com
+    stacks:
+      - Scrum
+      - Nextjs
+      - React
+      - Typescript
+      - Postgresql
+      - Kubernetes
+      - Docker
+      - Nestjs
+      - CircleCI
+  - date: "Octobre 2021 - Octobre 2023"
+    title: "TECH LEAD FRONTEND - OGF (freelance)"
+    desc: La société OGF m’a confié la responsabilité de la refonte complète du
+      site PFG, j’ai géré pendant une année une équipe de 10 personnes en tant
+      que tech lead, différents projets ont rythmé cette mission
+      api de géolocalisation, parser drupal, builder de page, moteur de recherche
+      d’agence - pfg.fr
+    stacks:
+      - Scrum
+      - Nextjs
+      - React
+      - Typescript
+      - Pnpm
+      - Mongodb
+      - Bash
+      - Docker
+      - Drupal
+  - date: "Septembre 2020 - Juillet 2021"
+    title: "LEAD DEV FULL-STACK - DDN IMMOBILIER (freelance)"
+    desc:
+      Responsable de la conception d’une plateforme d’achat et de vente immobilière
+      j’ai créé un CRM sur mesure, builder de page, gestion des utilisateurs/rôles
+      gestion de médiathèque, administration avancée des actifs, mandats
+      compromissions, annexes, signature numérique. - ddn-immobilier.fr
+    stacks:
+      - Kanban
+      - Node.js
+      - Typescript
+      - React
+      - Nextjs
+      - Mongoose
+      - Bash
+  - date: "Octobre 2019 - Juin 2020"
+    title: "Développeur FULL-STACK - Espot-Paris (freelance)"
+    desc:
+      Pour une entreprise d’e-sport, j’ai contribué, avec trois développeurs,
+      à la création d'un thème Wordpress ainsi que de plusieurs plugins afin
+      d'étendre les fonctionnalités de la plateforme (bloc Guten berg, widget,
+      post-type, etc.) - espot.fr
+    stacks:
+      - Kanban
+      - PHP 8
+      - JS
+      - Wordpress
+      - Composer
+      - Javascript
+      - Wp-cli
+      - Aws
+languages:
+  - Français
+  - Anglais

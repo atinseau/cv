@@ -1,8 +1,7 @@
-import cv from "../../../cv.json"
+import cv from "../../../cv.yaml"
 
 import CursusItem from "./CursusItem"
 import ExperienceItem from "./ExperienceItem"
-import ProjectItem from "./ProjectItem"
 
 export default function Body() {
 	return (<div className="body">

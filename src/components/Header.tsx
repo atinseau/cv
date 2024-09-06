@@ -2,7 +2,7 @@ import github from "../images/github.png"
 import linkedin from "../images/linkedin.png"
 import profil from "../images/profil.png"
 
-import cv from "../../cv.json"
+import cv from "../../cv.yaml"
 
 export default function Header() {
 	return <div className="header">
