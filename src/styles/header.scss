@@ -2,7 +2,7 @@
 
 .page .header {
 	position: relative;
-	padding: 80px 40px 0 40px;
+	padding: 30px 40px 0 40px;
 
 	.left {
 		width: 70%;
@@ -43,7 +43,7 @@
 	}
 
 	.right {
-		@include absolute((top: 70px, right: 30px));
+		@include absolute((top: 27px, right: 15px));
 		background: white;
 		display: flex;
 		align-items: center;

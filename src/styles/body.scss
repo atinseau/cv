@@ -1,7 +1,7 @@
 @use "./mixins.scss" as *;
 
 .page .body {
-	margin-top: 40px;
+	margin-top: 29px;
 	padding: 0 40px;
 	@include flex(row, 20px);
 
@@ -60,7 +60,7 @@
 		}
 
 		.container {
-			@include flex(column, 30px);
+			@include flex(column, 20px);
 
 			.item {
 				h1 {
