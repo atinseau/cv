@@ -34,7 +34,7 @@ export default function Header() {
 				<h1>{cv.firstname}</h1>
 				<h1>{cv.lastname}</h1>
 			</div>
-			<img src={profil} />
+			<img className="" src={profil} />
 			<p className="under">{cv.job}</p>
 		</div>
 	</div>

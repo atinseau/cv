@@ -1,53 +1,85 @@
 {
 	"firstname": "Arthur",
 	"lastname": "Tinseau",
-	"job": "DEV FULL-STACK JS/PHP",
+	"job": "DÉVELOPPEUR FULL-STACK JS SENIOR",
 	"tel": "0782887672",
-	"email": "arthurtweak@gmail.com",
+	"email": "arthurtinseau@live.fr",
 	"address": "25 boulevard de la somme, 75017 Paris",
 	"github": "https://github.com/atinseau",
 	"linkedin": "https://www.linkedin.com/in/arthur-tinseau",
-	"profil": "Passionné par la programmation et l’univers de l’informatique et doté d’une grande curiosité, je suis actuellement étudiant à l’école 42 Paris depuis 2 ans. Fort de mon expérience depuis 5 ans dans le monde du web en tant que Développeur Full-Stack, j’ai perfectionné ma maitrise et conçu de nombreuses solutions dans le cadre de mes différentes missions. Je suis aujourd’hui à la recherche de nouvelles opportunités.",
+	"profil": "Grâce à ma passion pour l’informatique, et aux compétences acquises à l'école 42, j'ai dirigé avec succès une équipe de 10 développeurs en tant que Tech Lead Frontend pendant deux ans, puis j'ai participé à la création d'une startup spécialisée dans la téléconsultation médicale. Ces expériences m’ont permis de développer une expertise solide dans la gestion de projets d'envergure, renforçant ma capacité d'anticipation et ma vision stratégique. Aujourd'hui, je suis prêt à relever de nouveaux défis et innover dans le domaine de l'informatique.",
 	"skills": {
 		"quality": [
-			"Meticuleux",
+			"Méticuleux",
 			"Autonome",
 			"Créatif",
 			"Fédérateur"
 		],
 		"tech": [
-			"Node.js/Javascript",
-			"React/Nextjs",
-			"Vue/Nuxtjs",
-			"Mysql/Mongodb",
-			"Graphql/Apollo",
-			"PHP/Laravel",
-			"Wordpress"
+			"Typescript/Javascript",
+			"React/Nextjs/Svelte",
+			"Node/NestJS/Bun",
+			"Mysql/Mongodb/Psql",
+			"Kubernetes/Docker",
+			"Powershell/Bash"
 		]
 	},
 	"cursus": [
 		{
-			"date": "2020 - Aujourd'hui",
+			"date": "2020 - 2023",
 			"title": "42 SCHOOL PARIS",
 			"desc": "École d'informatique"
 		},
 		{
-			"date": "2019 - 2020",
-			"title": "DUT GEII",
-			"desc": "Genie info industrielle"
+			"date": "2019 - 2019",
+			"title": "BTS SIN PROVIDENCE",
+			"desc": "Bts science info"
 		},
 		{
 			"date": "2018 - 2019",
-			"title": "BTS SIN PROVIDENCE",
-			"desc": "bts science info"
+			"title": "DUT GEII",
+			"desc": "Genie info industrielle"
 		}
 	],
 	"experiences": [
 		{
-			"date": "Septembre 2021 - Juillet 2022",
-			"title": "LEAD DEV DDN IMMOBILIER <i>(freelance)</i>",
-			"desc": "Dans une équipe de 3 développeurs, j'étais responsable de la conception de la plateforme immobilière <a href=\"https://ddn-immobilier.fr\">ddn-immobilier.fr</a>. Contient un CRM sur mesure, builder de page, gestion des utilisateurs/rôles, gestion de médiathèque, administration avancée des actifs, mandats, compromissions, annexes et signature numérique.",
+			"date": "Novembre 2023 - Juin 2024",
+			"title": "LEAD DEV FULL-STACK - HYGIIE <i>(freelance)</i>",
+			"desc": "J’ai eu la chance de contribuer à la création d’Hygiie, une startup dans la téléconsultation médicale, j’ai architecturé et développé front/back ainsi que de nombreux outils nécessaires au fonctionnement de la plateforme, ci/cd, environments dev, pratiques de dev, documentation - hygiie.com",
 			"stacks": [
+				"Scrum",
+				"Nextjs",
+				"React",
+				"Typescript",
+				"Postgresql",
+				"Kubernetes",
+				"Docker",
+				"Nestjs",
+				"CircleCI"
+			]
+		},
+		{
+			"date": "Octobre 2021 - Octobre 2023",
+			"title": "TECH LEAD FRONTEND - OGF <i>(freelance)</i>",
+			"desc": "La société OGF m’a confié la responsabilité de la refonte complète du site PFG, j’ai géré pendant une année une équipe de 10 personnes en tant que tech lead, différents projets ont rythmé cette mission: api de géolocalisation, parser drupal, builder de page, moteur de recherche d’agence - pfg.fr",
+			"stacks": [
+				"Scrum",
+				"Nextjs",
+				"React",
+				"Typescript",
+				"Pnpm",
+				"Mongodb",
+				"Bash",
+				"Docker",
+				"Drupal"
+			]
+		},
+		{
+			"date": "Septembre 2020 - Juillet 2021",
+			"title": "LEAD DEV FULL-STACK - DDN IMMOBILIER <i>(freelance)</i>",
+			"desc": "Responsable de la conception d’une plateforme d’achat et de vente immobilière, j’ai créé un CRM sur mesure, builder de page, gestion des utilisateurs/rôles, gestion de médiathèque, administration avancée des actifs, mandats, compromissions, annexes, signature numérique. - ddn-immobilier.fr",
+			"stacks": [
+				"Kanban",
 				"Node.js",
 				"Typescript",
 				"React",
@@ -57,10 +89,11 @@
 			]
 		},
 		{
-			"date": "Octobre 2020 - Juin 2021",
-			"title": "Développeur Full-Stack Espot-Paris <i>(freelance)</i>",
-			"desc": "En tant que développeur full-stack pour <a href=\"https://espot.fr\">espot.fr</a>, j'ai contribué à la création d'un thème Wordpress ainsi que plusieurs plugins afin d'étendre les fonctionnalités de la plateforme (bloc Gutenberg, widget, post-type, etc.). Mission en équipe de 3 développeurs.",
+			"date": "Octobre 2019 - Juin 2020",
+			"title": "Développeur FULL-STACK - Espot-Paris <i>(freelance)</i>",
+			"desc": "Pour une entreprise d’e-sport, j’ai contribué, avec trois développeurs, à la création d'un thème Wordpress ainsi que de plusieurs plugins afin d'étendre les fonctionnalités de la plateforme (bloc Guten berg, widget, post-type, etc.) - espot.fr",
 			"stacks": [
+				"Kanban",
 				"PHP 8",
 				"JS",
 				"Wordpress",
@@ -69,46 +102,10 @@
 				"Wp-cli",
 				"Aws"
 			]
-		},
-		{
-			"date": "Septembre 2020 - Novembre 2020",
-			"title": "Développeur Full-Stack H24Connect <i>(freelance)</i>",
-			"desc": "Mission en autonomie pour <a href=\"https://h24connect.fr\">h24connect.fr</a>. Création d'un site d'information et de contact, chatbot sur mesure et edition du contenu via un CRM complet grace à \"voyager\"",
-			"stacks": [
-				"PHP 7.4",
-				"Laravel 8",
-				"JS",
-				"Node.js",
-				"Docker-compose",
-				"SASS",
-				"Vuejs"
-			]
-		}
-	],
-	"projects": [
-		{
-			"title": "Sidebar.py",
-			"desc": "Multithreaded command line",
-			"link": "https://github.com/atinseau/sidecar"
-		},
-		{
-			"title": "Ft_container",
-			"desc": "Remake c++ container std",
-			"link": "https://github.com/atinseau/ft_container"
-		},
-		{
-			"title": "Ft_services",
-			"desc": "Exemple de deployement kubernetes",
-			"link": "https://github.com/atinseau/ft_services"
-		},
-		{
-			"title": "So_long",
-			"desc": "Clone super mario nes c++",
-			"link": "https://github.com/atinseau/so_long"
 		}
 	],
 	"languages": [
 		"Français",
-		"Anglais <i>(technique)</i>"
+		"Anglais"
 	]
 }

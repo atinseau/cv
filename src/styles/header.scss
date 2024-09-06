@@ -6,7 +6,7 @@
 
 	.left {
 		width: 70%;
-		@include flex(column, 40px);
+		@include flex(column, 26px);
 
 		.contact {
 			font-size: 11px;
